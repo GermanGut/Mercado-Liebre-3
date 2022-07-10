@@ -2,7 +2,8 @@
 @import './home.css';
 
 
-header, main {
+header,
+main {
     background-color: #EAC926;
     font-family: var(--tipografiaGeneral);
 }
@@ -26,7 +27,8 @@ header, main {
     margin: 20px 0 20px 10px;
 }
 
-.header__menu, .home__header__cuotas  {
+.header__menu,
+.home__header__cuotas {
     margin-left: -35px;
     font-size: 12px;
 }
@@ -39,20 +41,23 @@ header, main {
     margin-left: 5px;
 }
 
-.home__header--dolarHand, .home__header__cuotas {
+.home__header--dolarHand,
+.home__header__cuotas {
     display: inline;
 }
 
-.header__menu
-.creaCuenta, .creaCuentaIcon {
+.header__menu .creaCuenta,
+.creaCuentaIcon {
     display: inline;
 }
 
-.ingresa, .ingresaIcon {
+.ingresa,
+.ingresaIcon {
     display: inline;
 }
 
-.misCompras, .misComprasIcon  {
+.misCompras,
+.misComprasIcon {
     display: inline;
 }
 
@@ -60,7 +65,8 @@ header, main {
     display: inline;
 }
 
-.main__section__visita, .main__section__ofertas {
+.main__section__visita,
+.main__section__ofertas {
     font-size: 24px;
 }
 
@@ -68,7 +74,6 @@ header, main {
 .main {
     background-color: white;
     background-position: center;
-    /* background-size: 90%; */
 }
 
 .main precio {
@@ -80,11 +85,13 @@ a {
     color: black;
 }
 
-.main__section__visita--precio, .main__section__ofertas--precio {
+.main__section__visita--precio,
+.main__section__ofertas--precio {
     font-size: 18px;
 }
 
-.main__section__ofertas--descuento, .main__section__ofertas--descuento {
+.main__section__ofertas--descuento,
+.main__section__ofertas--descuento {
     font-size: 16px;
 }
 
@@ -108,7 +115,7 @@ a {
 }
 
 .main__section {
-    margin-top : 10px;
+    margin-top: 10px;
 }
 
 /* FOOTER */
@@ -129,7 +136,9 @@ a {
     margin-bottom: 60px;
 }
 
-.footer__iconTarjeta, .footer__iconEnvio, .footer__iconSeguridad {
+.footer__iconTarjeta,
+.footer__iconEnvio,
+.footer__iconSeguridad {
     font-size: 2em;
     margin-bottom: 10px;
     color: var(--colorCeleste);
@@ -144,4 +153,80 @@ a {
     text-align: left;
     margin-left: 10px;
     margin-top: 60px;
+}
+
+
+/* ADAPTATIVO */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--colorGrisClaro);
+}
+
+
+.main__section__ofertas--descuento,
+.main__section__visita--descuento {
+    color: var(--colorVerde);
+}
+
+.logo--envio {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--colorVerde);
+
+}
+
+.article {
+    margin-top: 10px;
+}
+
+.main__section__article,
+.main__section__ofertas__article {
+    border-top: 1px solid #ebebeb;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+i.fa-solid.fa-truck {
+    color: var(--colorVerde);
+    border-radius: 200px;
+    border: 1px solid var(--colorVerde);
+    padding: 10px;
+}
+
+
+
+@media(max-width:360px) {
+
+    h4,
+    .header__menu {
+        display: none;
+    }
+}
+
+
+
+/* TABLET */
+@media(min-width:361px) {
+    body {
+        box-shadow: 0px 0px 10px rgb (100, 100, 100);
+    }
+
+    .header__burger--menu {
+        display: none;
+    }
+}
+
+
+/* DESKTOP */
+@media(min-width:769px) {
+    body {
+        box-shadow: 0px 0px 10px rgb (100, 100, 100);
+    }
+
+    .header__burger--menu {
+        display: none;
+    }
 }
