@@ -67,6 +67,8 @@ header, main {
 /* MAIN */
 .main {
     background-color: white;
+    background-position: center;
+    /* background-size: 90%; */
 }
 
 .main precio {
@@ -103,6 +105,10 @@ a {
     margin: auto;
     padding-top: 10px;
     border-radius: 5px;
+}
+
+.main__section {
+    margin-top : 10px;
 }
 
 /* FOOTER */

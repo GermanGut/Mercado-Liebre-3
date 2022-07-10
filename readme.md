@@ -5,8 +5,3 @@
 [Mercado Liebre 3 - Diseño adaptativo](https://github.com/GermanGut/Mercado-Liebre-3.git)
 
 
-### Imagenes
-![1](/public/images/imagenes/imagenEstilo1.PNG)
-![2](/public/images/imagenes/imagenEstilo2.PNG)
-![3](/public/images/imagenes/imagenEstilo3.PNG)
-
