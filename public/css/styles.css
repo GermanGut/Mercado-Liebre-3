@@ -174,7 +174,6 @@ a {
     display: flex;
     justify-content: flex-start;
     color: var(--colorVerde);
-
 }
 
 .article {
@@ -196,10 +195,13 @@ i.fa-solid.fa-truck {
     padding: 10px;
 }
 
+.footer{
+    margin: 10%
+}
+
 
 
 @media(max-width:360px) {
-
     h4,
     .header__menu {
         display: none;
